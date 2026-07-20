@@ -1,20 +1,65 @@
-# Node
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+########################
+### Machine Learning ###
+########################
+# Model files
+*.pth
+*.pt
+*.onnx
+*.h5
+*.ckpt
+*.pb
+*.tflite
+
+# Large datasets (optional)
+data/
+datasets/
+
+# Generated outputs
+output/
+runs/
+logs/
+checkpoints/
+
+########################
+######### Node #########
+########################
 node_modules/
 npm-debug.log*
 yarn-error.log*
 
-# Env
-.env
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-
-# Java
-*.class
-
-# OS / IDE
-.DS_Store
-.idea/
+########################
+######### IDEs #########
+########################
 .vscode/
+.idea/
+
+######################## 
+### Operating System ###
+########################
+.DS_Store
+Thumbs.db
+
+###################
+###		Misc 	###
+###################
+*.log
